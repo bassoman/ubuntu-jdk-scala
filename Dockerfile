@@ -2,8 +2,6 @@ FROM bassoman/ubuntu-jdk
 MAINTAINER Jon Lancelle <bassoman@gmail.com>
 
 RUN apt-get update && apt-get install -y \
-	curl \
-	wget \
 	unzip
 
 RUN curl "http://www.scala-lang.org/files/archive/scala-2.9.3.zip" \
